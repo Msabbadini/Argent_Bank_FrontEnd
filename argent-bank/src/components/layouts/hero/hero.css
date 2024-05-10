@@ -1,0 +1,45 @@
+.hero {
+    /* background-image: url('/assets/bank-tree.jpeg'); */
+    /* background-position: 0 -50px;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 300px;
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 -50px;
+    z-index: -1;
+}
+
+.hero-card {
+    width: 200px;
+    background: white;
+    padding: 2rem;
+    box-sizing: content-box;
+}
+
+@media (min-width: 920px) {
+    .hero {
+        height: 400px;
+        padding: 50px 82px 50px 50px;
+    }
+
+    .background{
+        object-position: 0 33%;
+    }
+    .hero-card {
+        width: 300px;
+    }
+
+}

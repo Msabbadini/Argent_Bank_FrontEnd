@@ -1,0 +1,14 @@
+.sign-in-card{
+    background: white;
+    padding: 2rem;
+    box-sizing: content-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 920px) {
+    .sign-in-card {
+        width: 18.75rem;
+    }
+    
+}

@@ -1,0 +1,131 @@
+/* Début Section class Text */
+.text_5xl {
+    font-size: 2.5rem;
+    /* font-weight: 500;
+    line-height: 24px; */
+}
+
+.text_xxl {
+    font-size: 1.5rem;
+    /* font-weight: 500;
+    line-height: 24px; */
+}
+
+.text_xl {
+    font-size: 1.25rem;
+    /* font-weight: 500;
+    line-height: 24px; */
+}
+
+.text_lg {
+    font-size: 1.2rem;
+    /* font-weight: 700;
+    line-height: 24px; */
+}
+
+.text_md {
+    font-size: 1.1rem;
+    /* font-weight: 500;
+    line-height: 24px; */
+}
+
+.text_sm {
+    font-size: 1rem;
+    /* font-weight: 500;
+    line-height: 24px; */
+}
+
+.text_xs {
+    font-size: 0.9rem;
+    /* font-weight: 500;
+    line-height: 24px; */
+}
+
+/* Fin Section class Text */
+
+/* Début Section class Text Align */
+.text_left {
+    text-align: left;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+/* Fin Section class Text Align */
+/* Début Section class Text Font Weight */
+.font_bold {
+    font-weight: 700;
+}
+.font_normal {
+    font-weight: 400;
+}
+.font_light {
+    font-weight: 300;
+}
+
+/* Fin Section class Text Font Weight */
+
+/* Début Section class Text Color */
+.text_red {
+    color: var(--red400);
+    fill: var(--red400);
+}
+
+.text_grey {
+    color: var(--grey500);
+}
+
+.text_white {
+    color: var(--white);
+}
+
+.text_black {
+    color: var(--black);
+}
+
+.svg_red svg {
+    rect {
+        fill: var(--white);
+    }
+
+    path {
+        fill: var(--red400);
+    }
+}
+
+.svg_grey svg {
+    rect {
+        fill: var(--white);
+    }
+
+    path {
+        fill: var(--grey500);
+    }
+}
+
+.svg_white svg {
+    rect {
+        fill: var(--white);
+    }
+
+    path {
+        fill: var(--white);
+    }
+}
+
+.svg_black svg {
+    rect {
+        fill: var(--black);
+    }
+
+    path {
+        fill: var(--white);
+    }
+}
+
+/* Fin Section class Text Color */

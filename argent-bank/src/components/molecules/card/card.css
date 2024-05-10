@@ -1,0 +1,17 @@
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    flex: 1;
+    padding: 2.5rem;
+    gap: 1.25rem;
+
+  }
+  .feature-icon {
+    width: 100px;
+    border: 10px solid #00bc77;
+    border-radius: 50%;
+    padding: 1rem;
+    box-sizing: content-box;
+  }
