@@ -15,7 +15,7 @@ const HeroProfil = () => {
     const userToken = useSelector((state: RootState) => state.auth.token)
     const dispatch = useDispatch()
     const userApi = new UserApiService()
-
+    
     const handleEdit = () => {
         setEditProfile(!editProfile)
     }
@@ -25,7 +25,8 @@ const HeroProfil = () => {
         if (userToken === null) {
             return;
         }
-        userApi.editProfile(userToken, pUser.firstname, pUser.lastname)
+        userApi.auth = userToken
+        userApi.editProfile( pUser.firstname, pUser.lastname)
             .then(response => {
                 console.log(response);
 
